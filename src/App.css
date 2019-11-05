@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -20,3 +21,30 @@
 .App-link {
   color: #09d3ac;
 }
+*/
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+
+#editor {
+  height: 50vh;
+  width: 50vw;
+  background-color: hsl(196, 95%, 76%);
+}
+
+#preview {
+  height: 50vh;
+  overflow: auto;
+  background-color: hsl(164, 100%, 87%);
+}
+
+.toolbar {
+  font-family: 'Righteous', Arial, sans-serif;
+  font-size: 20px;
+  position: relative;
+  padding: 5px 0px 2px 10px;
+
+
+}
+
+
+
